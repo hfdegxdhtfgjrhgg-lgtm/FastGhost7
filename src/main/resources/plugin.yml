@@ -1,0 +1,12 @@
+name: FastGhost
+version: 1.0.0
+main: com.fast.ghost.FastGhost
+api-version: 1.16
+author: Fast
+depend: [ProtocolLib]
+
+commands:
+  fastghost:
+    description: Control FastGhost plugin.
+    usage: /fastghost [reload]
+    permission: fastghost.use
